@@ -1,5 +1,72 @@
+* {
+	margin: 0;
+}
+html, body {
+	height: 100%;
+}
+
 body {
-	background-color: darkblue;
-	color: silver;
-	font-family: sans-serif;
+	background-color: #3F7EB2;
+	color: white;
+	font-family: 'Nunito', sans-serif;
+}
+
+h1 { font-size: 80px;}
+h2 { font-size: 65px;}
+p {  font-size: 24px;}
+
+.container {
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	margin: 0 auto -30px; /* the bottom margin is the negative value of the footer's height */
+
+}
+
+.wrapper {
+
+    color: #fff;
+    background: rgba(0,0,0,0.5);
+   	width: 50%;
+   	margin-left: auto;
+   	margin-right: auto;
+    text-align: center;
+    border-radius: 4px;
+    margin-top: 45px;
+    padding: 15px;
+}
+
+
+
+footer, .push {
+	height: 30px; /* '.push' must be the same height as 'footer' */
+}
+
+
+
+img#logo {width: 20%;}
+
+
+
+
+footer {
+    width: 100%;
+    text-align: right;
+    font-size: 16px;
+    padding-right: 15px;
+    background: rgba(255, 255, 255, 0.1);
+
+}
+
+footer p {padding-right: 10px;}
+
+footer a {
+	text-decoration: none;
+	color: black;
+	
+	}
+
+footer a:hover {
+	text-decoration: none;
+	color: rgba(255, 255, 255, 0.7);
 }
