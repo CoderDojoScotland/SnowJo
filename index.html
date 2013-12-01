@@ -6,20 +6,18 @@
 	<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;"/>
 	<link href='http://fonts.googleapis.com/css?family=Nunito' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Mountains+of+Christmas' rel='stylesheet' type='text/css'>
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
 
 	<div class="container">
-
 
 			<h1>CODERDOJO SCOTLAND</h1>
 			<h2>CHRISTMAS 2013</h2>
 			<img id="logo" src="img/logo.png">
 			<p>Activate the winter magic (and the JavaScript) by typing the magic word "snow"</p>
 
-
-		<div class="push"></div>
+		<div class="push"></div> <!-- this is used as part of the "sticky footer" -->
 	</div> <!-- end container -->
 
 		<footer>
@@ -30,14 +28,15 @@
 		</footer>
 
 
-<script type="text/javascript" src="https://rawgithub.com/dmauro/Keypress/master/keypress.js"></script>
-<script type="text/javascript" src="snowstorm.js"></script>
+<script type="text/javascript" src="js/keypress.js"></script> <!-- add the keypress library -->
+<script type="text/javascript" src="js/snowstorm.js"></script> <!-- add the snowstorm library -->
 <script type="text/javascript">
 
-// If you want to register a sequence combo
-keypress.sequence_combo("s n o w", function() {makeSnow(); }, true);
+/** when the sequence of letters is entered in the keyboard, it will call the function  **/
+keypress.sequence_combo("s n o w", function() { makeSnow(); }, true);
 
 function makeSnow() {
+	/** when this function is called, the snowstorm will start **/
 	console.log("Begin snowing!");
 	this.snowStorm.start();
 }
