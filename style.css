@@ -30,12 +30,7 @@ footer, .push {
 	height: 30px; /* '.push' must be the same height as 'footer' */
 }
 
-
-
 img#logo {width: 20%;}
-
-
-
 
 footer {
     width: 100%;
@@ -50,7 +45,7 @@ p#footer-text {padding-right: 10px; font-size: 18px;}
 
 footer a {
 	text-decoration: none;
-	color: black;
+	color: #2D9DD7;
 	
 	}
 
