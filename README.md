@@ -1,7 +1,9 @@
-SnowJO
+SnowJo
 =============
 
 A winter themed educational resource to be used at a CoderDojo. When the keyword "snow" is entered, snow starts to fall on the page.<br/>
+
+[Live Demo](http://coderdojo.co/demo/snowjo/) 
 
 ##Resources
 
